@@ -1,0 +1,84 @@
+body{
+    font-family: 'Fredoka One', cursive;
+}
+.perso_bgBlue{
+    background-color: rgb(40,54,69);
+}
+.perso_bgOrange{
+    background-color:#FF8000;
+}
+nav a{
+    color: white !important;
+    font-size: 25px;
+}
+nav a:hover{
+    color :#FF8000 !important;
+}
+.perso_bgBlueDegrade{
+    background: linear-gradient(rgb(40,54,69), white) !important;
+}
+.perso_colorBlueLight{
+   color: #1490d7 !important;
+}
+.navbar-brand{
+    animation-name: brand;
+    animation-duration: 2s;
+    position:relative;
+}
+@keyframes brand{
+    0%{left:-1000px;}
+    100%{left:0px;}
+}
+.navbar-nav{
+    animation-name: lien;
+    animation-duration: 2s;
+    position:relative;
+}
+@keyframes lien{
+    0%{left:1000px;}
+    100%{left:0px;}
+}
+.monBouton{
+    animation-name: saut;
+    animation-duration: 0.5s;
+    position:relative;
+    animation-iteration-count:infinite; 
+    animation-direction: alternate;
+}
+@keyframes saut{
+    0%{
+        transition : all 200ms ease-in;
+        transform: scale(1);
+    }
+    100%{
+        transition : all 200ms ease-in;
+        transform: scale(1.2);
+    }
+}
+.animationTemoignage1{
+    animation-name:temoignage1;
+    animation-duration: 1s;
+    position:relative;
+}
+@keyframes temoignage1{
+    0%{left :-1000px;}
+     100%{left:0px;}
+    }
+    .animationTemoignage2{
+        animation-name:temoignage2;
+        animation-duration: 1s;
+        position:relative;
+    }
+    @keyframes temoignage2{
+        0%{bottom :-100px;}
+         100%{bottom:0px;}
+        }
+        .animationTemoignage3{
+            animation-name:temoignage3;
+            animation-duration: 1s;
+            position:relative;
+        }
+        @keyframes temoignage3{
+            0%{left :1000px;}
+             100%{left:0px;}
+            }
